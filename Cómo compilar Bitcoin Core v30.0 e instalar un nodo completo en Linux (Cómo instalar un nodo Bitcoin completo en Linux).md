@@ -65,6 +65,8 @@ sudo apt-get install libsqlite3-dev
 sudo apt-get install libminiupnpc-dev libnatpmp-dev
 sudo apt-get install libzmq3-dev
 sudo apt-get install libssl-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libprotobuf-dev protobuf-compiler git cmake
+sudo apt-get install automake autotools-dev build-essential ccache clang gcc git libboost-dev libboost-test-dev libevent-dev libsqlite3-dev libtool libzmq3-dev pkg-config python3
+sudo apt install build-essential cmake ninja-build python3-setuptools pkg-config libevent-dev libboost-all-dev libminiupnpc-dev libnatpmp-dev libzmq3-dev libsqlite3-dev qttools5-dev qttools5-dev-tools libqrencode-dev
 ```
 
 Si quieres utilizar GUI (interfaz gráfica) para administrar bitcoind debes instalar estas librerías, si solo vas a utilizar la línea de comandos no es necesario.
