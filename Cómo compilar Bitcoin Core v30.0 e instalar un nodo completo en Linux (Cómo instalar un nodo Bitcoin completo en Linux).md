@@ -129,7 +129,6 @@ Crear el directorio `build` separado dentro de la carpeta `bitcon`:
 
 ```shell
 mkdir build
-cd build
 ```
 
 Ahora vamos a preparar el entorno para compilar el software de referencia Bitcoin Core, para ello ejecutamos el siguiente comando **cmake** con el prefijo para ignorar la base de datos BDB incompatible y el soporte de multiprocesos, cada prefijo que agregan al comando, activara o desactivara alguna función, incluso puede agregar funciones extras al programa (como vamos a ejecutar `bitcoind`, no necesitamos `bitcoin-qt`):
